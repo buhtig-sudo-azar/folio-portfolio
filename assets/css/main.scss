@@ -37,3 +37,15 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+/* === Custom overrides === */
+
+/* Уменьшаем верхний отступ у превью проектов на странице /projects */
+.projects .card-img-top {
+  margin-top: 0;
+}
+
+/* На случай, если отступ даёт контейнер карточки */
+.projects .grid-item,
+.projects .card {
+  margin-top: 0.25rem; // можешь поставить 0, если хочешь убрать полностью
+}
