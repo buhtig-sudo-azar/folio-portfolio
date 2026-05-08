@@ -395,9 +395,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-http-host-header-injection",
+          title: 'HTTP Host Header Injection',
+          description: "Наглядный разбор и демо уязвимости Host Header Injection",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/1_project/";
             },},{id: "projects-project-2",
