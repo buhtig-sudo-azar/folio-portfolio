@@ -4,13 +4,13 @@ title: HTTP Host Header Injection
 description: Наглядный разбор и демо уязвимости Host Header Injection
 img: assets/img/projects/host-header-injection.png
 importance: 1
-category: work
+category: web-security
 external_link: https://normalization-discrepancies-host-in.vercel.app/
 related_publications: false
 ---
 
 В этом проекте я демонстрирую уязвимость **HTTP Host Header Injection** на простом web‑приложении.
-Цель — показать, как неправильная обработка заголовка `Host` приводит к неожиданному поведению и потенциальным атакам.[page:4]
+Цель — показать, как неправильная обработка заголовка `Host` приводит к неожиданному поведению и потенциальным атакам.
 
 ### Что такое Host Header Injection
 
