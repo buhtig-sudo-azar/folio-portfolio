@@ -39,13 +39,21 @@
 @use "font-awesome/regular";
 /* === Custom overrides === */
 
-/* Уменьшаем верхний отступ у превью проектов на странице /projects */
+/* === Custom overrides for project thumbnails === */
+
+/* Прижать картинку к верху карточки */
 .projects .card-img-top {
+  display: block;
   margin-top: 0;
 }
 
-/* На случай, если отступ даёт контейнер карточки */
-.projects .grid-item,
-.projects .card {
-  margin-top: 0.25rem; // можешь поставить 0, если хочешь убрать полностью
+/* Чуть уменьшить общий верхний отступ у самой карточки */
+.projects .grid-item {
+  padding-top: 0.25rem;
+}
+
+/* И у заголовка проекта, если он даёт лишний зазор */
+.projects .grid-item h2,
+.projects .grid-item h3 {
+  margin-top: 0.5rem;
 }
