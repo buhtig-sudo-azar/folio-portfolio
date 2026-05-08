@@ -37,23 +37,5 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
-/* === Custom overrides === */
 
-/* === Custom overrides for project thumbnails === */
-
-/* Прижать картинку к верху карточки */
-.projects .card-img-top {
-  display: block;
-  margin-top: 0;
-}
-
-/* Чуть уменьшить общий верхний отступ у самой карточки */
-.projects .grid-item {
-  padding-top: 0.25rem;
-}
-
-/* И у заголовка проекта, если он даёт лишний зазор */
-.projects .grid-item h2,
-.projects .grid-item h3 {
-  margin-top: 0.5rem;
-}
+Я понял
