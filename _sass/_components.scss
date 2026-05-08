@@ -259,3 +259,11 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+
+
+/* Custom: brighter category headings on projects page */
+.category {
+  font-weight: 700;
+  color: #b88d28;  // можешь поменять цвет под себя
+}
