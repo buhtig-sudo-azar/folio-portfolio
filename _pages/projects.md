@@ -5,11 +5,11 @@ permalink: /projects/
 description: A growing collection of my projects.
 nav: true
 nav_order: 3
-display_categories: [web-security, infrastructure, misc]
+display_categories: [web-security, ai-ml, infrastructure, misc]
 horizontal: false
 ---
-
-<!-- pages/projects.md -->
+А вот они
+<!-- pages/projects.md -->Про
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
