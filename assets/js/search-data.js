@@ -400,9 +400,9 @@ ninja.data = [{
           description: "Наглядный разбор и демо уязвимости Host Header Injection",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/1_project/";
-            },},{id: "projects-rag-masterclass-эмбеддинги-и-семантический-поиск",
-          title: 'RAG Masterclass — Эмбеддинги и семантический поиск',
-          description: "Исследование механик эмбеддингов: как нейросеть кодирует смысл в 1024 числа и как работает поиск без меток",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/2_project/";
             },},{id: "teachings-data-science-fundamentals",
