@@ -400,9 +400,9 @@ ninja.data = [{
           description: "Наглядный разбор и демо уязвимости Host Header Injection",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/1_project/";
-            },},{id: "projects-rag-embeddings-terminal",
-          title: 'RAG embeddings terminal',
-          description: "Интерактивный стенд для экспериментов с эмбеддингами и семантическим поиском",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/2_project/";
             },},{id: "teachings-data-science-fundamentals",
