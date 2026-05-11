@@ -5,8 +5,8 @@ description: >
   Исследование механик эмбеддингов: как нейросеть кодирует смысл в 1024 числа
   и как работает поиск без меток
 img: /assets/img/projects/rag-terminal.png
-importance: 2
-category: ai-ml
+importance: 3
+category: infrastructure
 external_link: https://rag-embeddings-terminal.vercel.app/
 related_publications: false
 ---
