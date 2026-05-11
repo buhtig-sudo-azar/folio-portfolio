@@ -1,7 +1,9 @@
 ---
 layout: page
-title: RAG Masterclass — Эмбеддинги и семантический поиск
-description: Исследование механик эмбеддингов: как нейросеть кодирует смысл в 1024 числа и как работает поиск без меток
+title: "RAG Masterclass — Эмбеддинги и семантический поиск"
+description: >
+  Исследование механик эмбеддингов: как нейросеть кодирует смысл в 1024 числа
+  и как работает поиск без меток
 img: assets/img/projects/rag-terminal.png
 importance: 2
 category: ai-ml

@@ -9,12 +9,6 @@ display_categories: [web-security, ai-ml, infrastructure, misc]
 horizontal: false
 ---
 
-<pre>
-site.projects size: {{ site.projects | size }}
-{% for p in site.projects %}
-- {{ p.path }} | category={{ p.category }} | title={{ p.title }}
-{% endfor %}
-</pre>
 
 
 
