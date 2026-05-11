@@ -9,12 +9,7 @@ display_categories: [web-security, ai-ml, infrastructure, misc]
 horizontal: false
 ---
 
-<pre>
-site.projects size: {{ site.projects | size }}
-{% for p in site.projects %}
-- {{ p.path }} | category={{ p.category }} | title={{ p.title }}
-{% endfor %}
-</pre>
+
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -25,12 +20,7 @@ site.projects size: {{ site.projects | size }}
 
   {% assign categorized_projects = site.projects | where: "category", category %}
 
-  <pre>
-  DEBUG {{ category }}:
-  {% for p in categorized_projects %}
-  - {{ p.path }} | {{ p.title }}
-  {% endfor %}
-  </pre>
+
 
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   {% if page.horizontal %}
