@@ -1,13 +1,11 @@
 ---
 layout: page
-title: "RAG Masterclass — Эмбеддинги и семантический поиск"
-description: >
-  Исследование механик эмбеддингов: как нейросеть кодирует смысл в 1024 числа
-  и как работает поиск без меток
-img: /assets/img/projects/rag-terminal.png
-importance: 3
-category: infrastructure
-external_link: https://rag-embeddings-terminal.vercel.app/
+title: HTTP Host Header Injection
+description: Наглядный разбор и демо уязвимости Host Header Injection
+img: assets/img/projects/host-header-injection.png
+importance: 2
+category: ai-ml
+external_link: [https://rag-embeddings-terminal.vercel.app/)
 related_publications: false
 ---
 
