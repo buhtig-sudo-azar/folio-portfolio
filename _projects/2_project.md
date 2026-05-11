@@ -2,7 +2,7 @@
 layout: page
 title: HTTP Host Header Injection
 description: Наглядный разбор и демо уязвимости Host Header Injection
-img: assets/img/projects/host-header-injection.png
+img: assets/img/projects/rag-terminal.png
 importance: 2
 category: ai-ml
 external_link: [https://rag-embeddings-terminal.vercel.app/)
