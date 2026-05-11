@@ -1,7 +1,7 @@
 ---
 layout: page
-title: HTTP Host Header Injection
-description: Наглядный разбор и демо уязвимости Host Header Injection
+title: RAG embeddings terminal
+description: Интерактивный стенд для экспериментов с эмбеддингами и семантическим поиском
 img: assets/img/projects/rag-terminal.png
 importance: 2
 category: ai-ml
