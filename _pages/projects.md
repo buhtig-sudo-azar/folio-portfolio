@@ -19,9 +19,6 @@ site.projects size: {{ site.projects | size }}
 
 
 
-
-
-
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
