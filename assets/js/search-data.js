@@ -400,9 +400,9 @@ ninja.data = [{
           description: "Наглядный разбор и демо уязвимости Host Header Injection",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/1_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-http-host-header-injection",
+          title: 'HTTP Host Header Injection',
+          description: "Наглядный разбор и демо уязвимости Host Header Injection",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/2_project/";
             },},{id: "teachings-data-science-fundamentals",
