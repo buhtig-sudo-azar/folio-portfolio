@@ -5,7 +5,7 @@ description: Наглядный разбор и демо уязвимости Ho
 img: assets/img/projects/rag-terminal.png
 importance: 2
 category: ai-ml
-external_link: [https://rag-embeddings-terminal.vercel.app/)
+external_link: https://rag-embeddings-terminal.vercel.app/
 related_publications: false
 ---
 
