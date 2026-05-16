@@ -63,14 +63,6 @@ horizontal: false
 
 
 
-<h2>DEBUG</h2>
-<ul>
-  {% for p in site.projects %}
-    <li>{{ p.path }} — {{ p.title }} — category={{ p.category }}</li>
-  {% endfor %}
-</ul>
-
-
 
 
 
