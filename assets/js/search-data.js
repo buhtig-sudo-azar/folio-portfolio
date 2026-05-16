@@ -405,6 +405,11 @@ ninja.data = [{
           description: "Интерактивный стенд для экспериментов с эмбеддингами и семантическим поиском",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/2_project/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/folio-portfolio/projects/3_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
