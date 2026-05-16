@@ -400,13 +400,13 @@ ninja.data = [{
           description: "Наглядный разбор и демо уязвимости Host Header Injection",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/1_project/";
-            },},{id: "projects-rag-embeddings-terminal",
-          title: 'RAG embeddings terminal',
+            },},{id: "projects-2-project",
+          title: '2_project',
           description: "Интерактивный стенд для экспериментов с эмбеддингами и семантическим поиском",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/2_project/";
-            },},{id: "projects-embedding-chunks-demo",
-          title: 'Embedding Chunks Demo',
+            },},{id: "projects-3-project",
+          title: '3_project',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/3_project/";
