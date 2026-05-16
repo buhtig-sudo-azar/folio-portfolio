@@ -407,7 +407,7 @@ ninja.data = [{
               window.location.href = "/folio-portfolio/projects/2_project/";
             },},{id: "projects-embedding-chunks-demo",
           title: 'Embedding Chunks Demo',
-          description: "Интерактивная визуализация, которая объясняет, как чанкинг улучшает поиск по документации",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/3_project/";
             },},{id: "teachings-data-science-fundamentals",
