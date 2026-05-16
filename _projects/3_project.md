@@ -1,7 +1,7 @@
 ---
 layout: page
-title: AI DevOps Mentor: умный поиск по документации
-description: Интерактивный стенд для экспериментов 
+title: Embedding Chunks Demo
+description: Интерактивная визуализация, которая объясняет, как чанкинг улучшает поиск по документации
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
 category: ai-ml
@@ -9,11 +9,6 @@ external_link: https://embedding-chunks-demo.vercel.app/
 related_publications: false
 ---
 
-
----
-layout: project
-title: "Embedding Chunks Demo"
----
 
 # Embedding Chunks Demo
 
