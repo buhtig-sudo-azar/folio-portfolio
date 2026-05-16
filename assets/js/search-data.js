@@ -405,8 +405,8 @@ ninja.data = [{
           description: "Интерактивный стенд для экспериментов с эмбеддингами и семантическим поиском",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/2_project/";
-            },},{id: "projects-3-project",
-          title: '3_project',
+            },},{id: "projects-embedding-chunks-demo",
+          title: 'Embedding Chunks Demo',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/3_project/";
