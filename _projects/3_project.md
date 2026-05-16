@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Embedding Chunks Demo
-description: Интерактивная визуализация, которая объясняет, как чанкинг улучшает поиск по документации
+
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
 category: ai-ml
