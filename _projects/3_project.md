@@ -1,6 +1,6 @@
 ---
 layout: page
-
+description: 
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
 category: ai-ml
