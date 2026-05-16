@@ -405,9 +405,9 @@ ninja.data = [{
           description: "Интерактивный стенд для экспериментов с эмбеддингами и семантическим поиском",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/2_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-embedding-chunks-demo",
+          title: 'Embedding Chunks Demo',
+          description: "Интерактивная визуализация, которая объясняет, как чанкинг улучшает поиск по документации",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/3_project/";
             },},{id: "teachings-data-science-fundamentals",
