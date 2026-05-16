@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Embedding Chunks
 description: 
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
