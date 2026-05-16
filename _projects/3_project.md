@@ -5,7 +5,7 @@ description: Интерактивный стенд для эксперимент
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
 category: ai-ml
-external_link: 
+external_link: https://embedding-chunks-demo.vercel.app/
 related_publications: false
 ---
 
