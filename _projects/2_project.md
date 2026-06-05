@@ -5,7 +5,7 @@ description: Интерактивный стенд для эксперимент
 img: assets/img/projects/rag-terminal.png
 importance: 2
 category: ai-ml
-external_link: https://rag-embeddings-terminal.vercel.app/
+redirect: https://rag-embeddings-terminal.vercel.app/
 related_publications: false
 ---
 

@@ -5,7 +5,7 @@ description:
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
 category: ai-ml
-external_link: https://embedding-chunks-demo.vercel.app/
+redirect: https://embedding-chunks-demo.vercel.app/
 related_publications: false
 ---
 
