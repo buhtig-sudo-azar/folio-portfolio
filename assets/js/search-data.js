@@ -415,6 +415,11 @@ ninja.data = [{
           description: "Генератор готовых карточек товаров для маркетплейсов — Wildberries, Ozon, Яндекс Маркет",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/4_project/";
+            },},{id: "projects-ai-searcher",
+          title: 'AI-Searcher',
+          description: "AI-поисковик с академическим поиском, анализом источников и интеллектуальным чатом",
+          section: "Projects",handler: () => {
+              window.location.href = "/folio-portfolio/projects/5_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
