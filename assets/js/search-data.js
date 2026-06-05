@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/folio-portfolio/";
     },
-  },{id: "nav-projects",
-          title: "projects",
+  },{id: "nav-проекты",
+          title: "проекты",
           description: "A growing collection of my projects.",
           section: "Navigation",
           handler: () => {
@@ -410,6 +410,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/3_project/";
+            },},{id: "projects-e-commerce-генератор",
+          title: 'E-Commerce Генератор',
+          description: "Генератор готовых карточек товаров для маркетплейсов — Wildberries, Ozon, Яндекс Маркет",
+          section: "Projects",handler: () => {
+              window.location.href = "/folio-portfolio/projects/4_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
