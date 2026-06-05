@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Embedding Chunks
-description: 
+description: Интерактивная визуализация, которая показывает почему нельзя пихать весь текст в один эмбеддинг и как правильный чанкинг улучшает поиск
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
 category: ai-ml
-redirect: https://embedding-chunks-demo.vercel.app/
 related_publications: false
 ---
 

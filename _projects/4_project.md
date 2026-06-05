@@ -5,7 +5,6 @@ description: Генератор готовых карточек товаров �
 img: assets/img/projects/ecommerce-generator.png
 importance: 1
 category: misc
-redirect: https://zhopka.vercel.app/
 related_publications: false
 ---
 
