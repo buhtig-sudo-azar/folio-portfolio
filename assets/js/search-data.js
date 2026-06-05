@@ -407,7 +407,7 @@ ninja.data = [{
               window.location.href = "/folio-portfolio/projects/2_project/";
             },},{id: "projects-embedding-chunks",
           title: 'Embedding Chunks',
-          description: "",
+          description: "Интерактивная визуализация, которая показывает почему нельзя пихать весь текст в один эмбеддинг и как правильный чанкинг улучшает поиск",
           section: "Projects",handler: () => {
               window.location.href = "/folio-portfolio/projects/3_project/";
             },},{id: "projects-e-commerce-генератор",
