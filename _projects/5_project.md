@@ -7,7 +7,7 @@ importance: 1
 category: infrastructure
 related_publications: false
 github: https://github.com/buhtig-sudo-azar/dive-into-llms-edu
-redirect: https://darknet-infrastructure.vercel.app/
+redirect: https://dive-into-llms-edu.vercel.app/
 ---
 
 Образовательная платформа для интерактивного изучения больших языковых моделей, созданная на основе курса **«动手学大模型 Dive into LLMs»** от Шанхайского университета Цзяотун (SJTU) — 36K+ звёзд на GitHub.
@@ -48,7 +48,7 @@ redirect: https://darknet-infrastructure.vercel.app/
 ### Попробовать
 
 Платформа доступна по адресу:  
-[https://darknet-infrastructure.vercel.app/](https://darknet-infrastructure.vercel.app/)
+[https://dive-into-llms-edu.vercel.app/](https://dive-into-llms-edu.vercel.app/)
 
 Исходный код:  
 [https://github.com/buhtig-sudo-azar/dive-into-llms-edu](https://github.com/buhtig-sudo-azar/dive-into-llms-edu)
