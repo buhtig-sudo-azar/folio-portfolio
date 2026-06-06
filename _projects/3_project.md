@@ -85,3 +85,6 @@ related_publications: false
 Саму визуализацию можно потрогать здесь:
 
 - 🔗 **Embedding Chunks Demo** — [https://embedding-chunks-demo.vercel.app/](https://embedding-chunks-demo.vercel.app/)
+---
+
+**AZAR**

@@ -6,7 +6,6 @@ img: assets/img/projects/dive-into-llms-edu.png
 importance: 1
 category: infrastructure
 related_publications: false
-github: https://github.com/buhtig-sudo-azar/dive-into-llms-edu
 redirect: https://dive-into-llms-edu.vercel.app/
 ---
 
@@ -14,7 +13,7 @@ redirect: https://dive-into-llms-edu.vercel.app/
 
 ### Что представляет собой платформа
 
-Платформа превращает 11 глав академического курса в интерактивный веб-опыт. Каждая тема — отдельная страница с описанием, ключевыми моментами, ссылками на оригинальные ресурсы (презентации, туториалы, Jupyter-ноутбуки) и — главное — персональным ИИ-ассистентом, готовым ответить на любые вопросы по теме.
+Платформа превращает 11 глав академического курса в интерактивный веб-опыт. Каждая тема — отдельная страница с описанием, ключевыми моментами и персональным ИИ-ассистентом, готовым ответить на любые вопросы по теме.
 
 ### Темы курса
 
@@ -47,8 +46,9 @@ redirect: https://dive-into-llms-edu.vercel.app/
 
 ### Попробовать
 
-Платформа доступна по адресу:  
+Платформа доступна по адресу:
 [https://dive-into-llms-edu.vercel.app/](https://dive-into-llms-edu.vercel.app/)
 
-Исходный код:  
-[https://github.com/buhtig-sudo-azar/dive-into-llms-edu](https://github.com/buhtig-sudo-azar/dive-into-llms-edu)
+---
+
+**AZAR**

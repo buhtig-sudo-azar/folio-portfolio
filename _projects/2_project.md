@@ -69,3 +69,7 @@ related_publications: false
 - **Деплой**: статический HTML на Vercel, не требует бэкенда.
 
 
+
+---
+
+**AZAR**

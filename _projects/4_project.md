@@ -30,3 +30,7 @@ related_publications: false
 
 Генератор доступен по адресу:  
 [https://zhopka.vercel.app/](https://zhopka.vercel.app/)
+
+---
+
+**AZAR**
