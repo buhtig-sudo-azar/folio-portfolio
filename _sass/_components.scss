@@ -143,8 +143,31 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card {
+    overflow: hidden;
+
     img {
       width: 100%;
+    }
+
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 0.5rem;
+      word-break: keep-all;
+      overflow-wrap: anywhere;
+    }
+
+    .card-text {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      word-break: keep-all;
+      overflow-wrap: anywhere;
+      color: var(--global-text-color);
+    }
+
+    .card-body {
+      padding: 1rem;
     }
   }
 
