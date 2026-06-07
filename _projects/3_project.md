@@ -5,6 +5,7 @@ description: Интерактивная визуализация, которая
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
 category: ии-мл
+demo: https://embedding-chunks-demo.vercel.app/
 related_publications: false
 ---
 

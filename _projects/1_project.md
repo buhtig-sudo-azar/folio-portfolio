@@ -5,6 +5,7 @@ description: Наглядный разбор и демо уязвимости Ho
 img: assets/img/projects/host-header-injection.png
 importance: 1
 category: веб-безопасность
+demo: https://normalization-discrepancies-host-in.vercel.app/
 related_publications: false
 ---
 

@@ -5,6 +5,7 @@ description: Интерактивный стенд для эксперимент
 img: assets/img/projects/rag-terminal.png
 importance: 2
 category: ии-мл
+demo: https://rag-embeddings-terminal.vercel.app/
 related_publications: false
 ---
 

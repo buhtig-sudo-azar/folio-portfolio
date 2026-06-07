@@ -142,34 +142,151 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .card {
+  // Project card with image overlay
+  .project-card {
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    }
 
     img {
       width: 100%;
+      transition: transform 0.4s ease;
     }
 
-    .card-title {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 1.1rem;
-      font-weight: 700;
-      line-height: 1.4;
-      margin-bottom: 0.5rem;
-      word-break: keep-all;
-      overflow-wrap: anywhere;
+    &:hover img {
+      transform: scale(1.05);
     }
+  }
 
-    .card-text {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 0.9rem;
-      line-height: 1.6;
-      word-break: keep-all;
-      overflow-wrap: anywhere;
+  .project-card-img-wrapper {
+    position: relative;
+    overflow: hidden;
+
+    a {
+      display: block;
+    }
+  }
+
+  .project-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    .project-card:hover & {
+      opacity: 1;
+    }
+  }
+
+  .project-card-overlay-text {
+    color: #fff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 8px 24px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+
+  .card-text {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+    color: var(--global-text-color);
+  }
+
+  // Card footer with action buttons
+  .project-card-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .project-demo-btn,
+  .project-details-btn,
+  .project-gh-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+  }
+
+  .project-demo-btn {
+    color: #fff;
+    background: var(--global-theme-color);
+
+    &:hover {
+      opacity: 0.85;
+      color: #fff;
+      transform: translateY(-1px);
+    }
+  }
+
+  .project-details-btn {
+    color: var(--global-text-color);
+    background: transparent;
+    border: 1px solid var(--global-divider-color);
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      transform: translateY(-1px);
+    }
+  }
+
+  .project-gh-btn {
+    color: var(--global-text-color);
+    background: transparent;
+    border: 1px solid var(--global-divider-color);
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-left: auto;
+
+    &:hover {
+      border-color: var(--global-text-color);
       color: var(--global-text-color);
-    }
-
-    .card-body {
-      padding: 1rem;
+      transform: translateY(-1px);
     }
   }
 
@@ -197,20 +314,23 @@ ul.task-list input[type="checkbox"] {
 
   // Responsive adjustments for project cards
   @media (max-width: 576px) {
-    .card {
-      .card-title {
-        font-size: 1rem;
-      }
-      .card-text {
-        font-size: 0.85rem;
-      }
-      .card-body {
-        padding: 0.75rem;
-      }
+    .card-title {
+      font-size: 1rem;
+    }
+    .card-text {
+      font-size: 0.85rem;
+    }
+    .card-body {
+      padding: 0.75rem;
     }
     h2.category {
       font-size: 1.2rem;
       text-align: left;
+    }
+    .project-demo-btn,
+    .project-details-btn {
+      font-size: 0.75rem;
+      padding: 4px 10px;
     }
   }
 }

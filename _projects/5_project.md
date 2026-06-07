@@ -5,6 +5,7 @@ description: AI-поисковик с академическим поиском,
 img: assets/img/projects/ai-searcher.png
 importance: 1
 category: разное
+demo: https://ai-searcher-ebon.vercel.app/
 related_publications: false
 ---
 

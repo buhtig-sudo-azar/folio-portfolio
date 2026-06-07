@@ -1,35 +1,42 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
-      {% endif %}
-      <div class="card-body">
-        <div class="card-title">{{ project.title }}</div>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
+  <div class="card h-100 hoverable project-card">
+    {% if project.img %}
+      <div class="project-card-img-wrapper">
+        <a href="{% if project.demo %}{{ project.demo }}{% elsif project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer">
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project.img
+            sizes = "400px"
+            alt=project.title
+            class="card-img-top project-card-img"
+          %}
+          <div class="project-card-overlay">
+            <span class="project-card-overlay-text">Открыть</span>
+          </div>
+        </a>
+      </div>
+    {% endif %}
+    <div class="card-body">
+      <div class="card-title">{{ project.title }}</div>
+      <p class="card-text">{{ project.description }}</p>
+      <div class="project-card-footer">
+        {% if project.demo or project.redirect %}
+          <a href="{% if project.demo %}{{ project.demo }}{% else %}{{ project.redirect }}{% endif %}" target="_blank" rel="noopener noreferrer" class="project-demo-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>Демо</span>
+          </a>
+        {% endif %}
+        <a href="{{ project.url | relative_url }}" class="project-details-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <span>Подробнее</span>
+        </a>
+        {% if project.github %}
+          <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer" class="project-gh-btn" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        {% endif %}
       </div>
     </div>
-  </a>
+  </div>
 </div>

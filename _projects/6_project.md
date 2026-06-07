@@ -5,6 +5,7 @@ description: "Образовательная платформа для изуч�
 img: assets/img/projects/dark-infrastructure.png
 importance: 1
 category: инфраструктура
+demo: https://dark-git-main-azars-projects-e8b4719a.vercel.app/
 related_publications: false
 ---
 
