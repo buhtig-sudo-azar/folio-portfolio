@@ -12,8 +12,6 @@ related_publications: false
 
 Интерактивная визуализация, которая показывает простым языком, почему нельзя пихать 150 страниц документации в один эмбеддинг и как правильный чанкинг делает поиск по тексту точнее и быстрее — даже если вы вообще не в теме векторного поиска и нейросетей.
 
-[Посмотреть визуализацию проекта](https://embedding-chunks-demo.vercel.app/)
-
 ---
 
 ## О чём этот проект
@@ -83,9 +81,29 @@ related_publications: false
 
 ## Live demo
 
-Саму визуализацию можно потрогать здесь:
+👉 [Открыть визуализацию]({{ page.demo }}){: .demo-button}
 
-- 🔗 **Embedding Chunks Demo** — [https://embedding-chunks-demo.vercel.app/](https://embedding-chunks-demo.vercel.app/)
 ---
 
 **AZAR**
+
+<style>
+.demo-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 24px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white !important;
+  border-radius: 10px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.3);
+}
+.demo-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(99,102,241,0.4);
+}
+</style>

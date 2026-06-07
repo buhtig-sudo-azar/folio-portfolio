@@ -26,8 +26,7 @@ HTTP‑заголовок `Host` указывает домен, к которо�
 
 ### Демо проекта
 
-Демо доступно по адресу:  
-[https://normalization-discrepancies-host-in.vercel.app/](https://normalization-discrepancies-host-in.vercel.app/)
+👉 [Открыть демо]({{ page.demo }}){: .demo-button .btn .btn-primary .mt-3 .mb-4}
 
 В демо можно увидеть, как приложение по‑разному реагирует на изменение заголовка `Host` и как это влияет на:
 
@@ -71,3 +70,24 @@ HTTP‑заголовок `Host` указывает домен, к которо�
 ---
 
 **AZAR**
+
+<style>
+.demo-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 24px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white !important;
+  border-radius: 10px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.3);
+}
+.demo-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(99,102,241,0.4);
+}
+</style>
