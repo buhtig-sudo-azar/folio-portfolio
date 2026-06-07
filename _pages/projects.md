@@ -32,7 +32,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row g-4 row-cols-1 row-cols-md-2">
+  <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -52,7 +52,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row g-4 row-cols-1 row-cols-md-2">
+  <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

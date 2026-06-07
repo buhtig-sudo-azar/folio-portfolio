@@ -21,6 +21,15 @@ footer.fixed-bottom {
       text-decoration: none;
     }
   }
+
+  @media (max-width: 576px) {
+    font-size: 0.65rem;
+
+    .container {
+      padding-top: 7px;
+      padding-bottom: 6px;
+    }
+  }
 }
 
 footer.sticky-bottom {
@@ -31,5 +40,11 @@ footer.sticky-bottom {
 
   .container {
     text-align: center;
+  }
+
+  @media (max-width: 576px) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 0.8rem;
   }
 }

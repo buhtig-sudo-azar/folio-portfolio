@@ -188,3 +188,50 @@
     color: var(--global-hover-color);
   }
 }
+
+// Responsive navbar improvements
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.5rem 0.75rem;
+
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .navbar-brand {
+      font-size: 1rem;
+      max-width: 50vw;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .navbar-toggler {
+      padding: 4px 8px;
+    }
+  }
+
+  .navbar-collapse {
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 0.5rem 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+
+    .navbar-brand {
+      font-size: 1.1rem;
+    }
+  }
+}

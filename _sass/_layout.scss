@@ -31,6 +31,13 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: v.$max-content-width;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @media (min-width: 768px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 // Profile
@@ -56,3 +63,82 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+// Responsive: reduce top margin on mobile
+@media (max-width: 576px) {
+  .container.mt-5 {
+    margin-top: 1.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container.mt-5 {
+    margin-top: 2rem !important;
+  }
+}
+
+// Project detail page: ensure content doesn't overflow on small screens
+.post {
+  header.post-header {
+    .post-title {
+      font-size: 1.8rem;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+
+      @media (max-width: 576px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    .post-description {
+      font-size: 1rem;
+
+      @media (max-width: 576px) {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  article {
+    h2, h3, h4 {
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+
+    table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      width: 100%;
+
+      @media (max-width: 576px) {
+        font-size: 0.85rem;
+
+        td, th {
+          padding: 4px 8px;
+        }
+      }
+    }
+
+    // Make images responsive
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    // Demo buttons on mobile
+    .demo-button {
+      @media (max-width: 576px) {
+        padding: 8px 18px;
+        font-size: 0.85rem;
+      }
+    }
+
+    // Code blocks responsive
+    pre, .highlight {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      max-width: 100%;
+    }
+  }
+}

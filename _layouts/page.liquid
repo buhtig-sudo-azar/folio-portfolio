@@ -9,6 +9,14 @@ layout: default
 {% endif %}
 
 <div class="post">
+  {% if page.collection == 'projects' %}
+  <nav class="back-nav" aria-label="Навигация назад">
+    <button onclick="history.back()" class="back-btn" title="Вернуться назад">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><polyline points="12 19 5 12 12 5"/></svg>
+      <span>Назад</span>
+    </button>
+  </nav>
+  {% endif %}
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
