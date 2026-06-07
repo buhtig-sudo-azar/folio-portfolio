@@ -150,6 +150,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     .card-title {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-size: 1.1rem;
       font-weight: 700;
       line-height: 1.4;
@@ -159,6 +160,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     .card-text {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-size: 0.9rem;
       line-height: 1.6;
       word-break: keep-all;
@@ -182,6 +184,9 @@ ul.task-list input[type="checkbox"] {
   }
 
   h2.category {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 600;
+    font-size: 1.5rem;
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
@@ -292,6 +297,7 @@ ul.task-list input[type="checkbox"] {
 
 /* Custom: brighter category headings on projects page */
 .category {
+  font-family: 'Playfair Display', Georgia, serif;
   font-weight: 700;
-  color: #daba6f; // можешь поменять цвет под себя
+  color: #daba6f;
 }
