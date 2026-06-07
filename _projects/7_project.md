@@ -3,6 +3,7 @@ layout: page
 title: "Dive into LLMs — Образовательная платформа"
 description: Интерактивная платформа для изучения LLM с ИИ-ассистентами по каждой теме — от тонкой настройки до безопасности агентов
 img: assets/img/projects/dive-into-llms-edu.png
+icon: favicons/dive-into-llms.png
 importance: 1
 category: инфраструктура
 demo: https://dive-into-llms.vercel.app/

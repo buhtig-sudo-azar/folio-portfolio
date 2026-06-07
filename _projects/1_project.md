@@ -3,6 +3,7 @@ layout: page
 title: HTTP Host Header Injection
 description: Наглядный разбор и демо уязвимости Host Header Injection
 img: assets/img/projects/host-header-injection.png
+icon: favicons/host-header.png
 importance: 1
 category: веб-безопасность
 demo: https://normalization-discrepancies-host-in.vercel.app/

@@ -3,6 +3,7 @@ layout: page
 title: AI-Searcher
 description: AI-поисковик с академическим поиском, анализом источников и интеллектуальным чатом
 img: assets/img/projects/ai-searcher.png
+icon: favicons/ai-searcher.png
 importance: 1
 category: разное
 demo: https://ai-searcher-ebon.vercel.app/

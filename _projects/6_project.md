@@ -3,6 +3,7 @@ layout: page
 title: "DARK — Сетевая инфраструктура"
 description: "Образовательная платформа для изучения сетевой инфраструктуры Dark Web: Tor, SOCKS5, I2P, Onion-сервисы"
 img: assets/img/projects/dark-infrastructure.png
+icon: favicons/dark-infra.png
 importance: 1
 category: инфраструктура
 demo: https://dark-git-main-azars-projects-e8b4719a.vercel.app/

@@ -3,6 +3,7 @@ layout: page
 title: E-Commerce Генератор
 description: Генератор готовых карточек товаров для маркетплейсов — Wildberries, Ozon, Яндекс Маркет
 img: assets/img/projects/ecommerce-generator.png
+icon: favicons/ecommerce.png
 importance: 1
 category: разное
 demo: https://zhopka.vercel.app/

@@ -3,6 +3,7 @@ layout: page
 title: Embedding
 description: Интерактивный стенд для экспериментов с эмбеддингами и семантическим поиском
 img: assets/img/projects/rag-terminal.png
+icon: favicons/embeddings.png
 importance: 2
 category: ии-мл
 demo: https://rag-embeddings-terminal.vercel.app/
