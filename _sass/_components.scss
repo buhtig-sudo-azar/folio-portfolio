@@ -46,6 +46,13 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+
+  .card-text {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
   }
 
   .card-body {
@@ -138,18 +145,6 @@ ul.task-list input[type="checkbox"] {
   .card {
     img {
       width: 100%;
-    }
-
-    .card-title {
-      word-break: break-word;
-      overflow-wrap: break-word;
-      hyphens: auto;
-    }
-
-    .card-text {
-      word-break: break-word;
-      overflow-wrap: break-word;
-      hyphens: auto;
     }
   }
 
