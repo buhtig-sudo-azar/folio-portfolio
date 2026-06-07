@@ -6,7 +6,7 @@ img: assets/img/projects/dive-into-llms-edu.png
 importance: 1
 category: инфраструктура
 related_publications: false
-redirect: https://dive-into-llms-edu.vercel.app/
+redirect: https://dive-into-llms.vercel.app/
 ---
 
 Образовательная платформа для интерактивного изучения больших языковых моделей, созданная на основе курса **«动手学大模型 Dive into LLMs»** от Шанхайского университета Цзяотун (SJTU) — 36K+ звёзд на GitHub.
@@ -47,7 +47,7 @@ redirect: https://dive-into-llms-edu.vercel.app/
 ### Попробовать
 
 Платформа доступна по адресу:
-[https://dive-into-llms-edu.vercel.app/](https://dive-into-llms-edu.vercel.app/)
+[https://dive-into-llms.vercel.app/](https://dive-into-llms.vercel.app/)
 
 ---
 
