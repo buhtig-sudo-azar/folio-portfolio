@@ -4,7 +4,7 @@ title: E-Commerce Генератор
 description: Генератор готовых карточек товаров для маркетплейсов — Wildberries, Ozon, Яндекс Маркет
 img: assets/img/projects/ecommerce-generator.png
 importance: 1
-category: misc
+category: разное
 related_publications: false
 ---
 

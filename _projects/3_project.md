@@ -4,7 +4,7 @@ title: Embedding Chunks
 description: Интерактивная визуализация, которая показывает почему нельзя пихать весь текст в один эмбеддинг и как правильный чанкинг улучшает поиск
 img: assets/img/projects/chunking-embeddings-explained.png
 importance: 2
-category: ai-ml
+category: ии-мл
 related_publications: false
 ---
 

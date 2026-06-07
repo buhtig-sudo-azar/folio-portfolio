@@ -2,10 +2,10 @@
 layout: page
 title: проекты
 permalink: /projects/
-description: A growing collection of my projects.
+description: Мои проекты по веб-безопасности, ИИ/МЛ и разработке.
 nav: true
 nav_order: 3
-display_categories: [web-security, ai-ml, infrastructure, misc]
+display_categories: [веб-безопасность, ии-мл, инфраструктура, разное]
 horizontal: false
 ---
 

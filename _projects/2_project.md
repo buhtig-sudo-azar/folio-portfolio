@@ -4,7 +4,7 @@ title: Embedding
 description: Интерактивный стенд для экспериментов с эмбеддингами и семантическим поиском
 img: assets/img/projects/rag-terminal.png
 importance: 2
-category: ai-ml
+category: ии-мл
 related_publications: false
 ---
 
