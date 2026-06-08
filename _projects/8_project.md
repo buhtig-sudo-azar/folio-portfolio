@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "WCD Education Platform"
-description: "Интерактивная образовательная платформа для изучения уязвимости Web Cache Deception: теория, лаборатория и ИИ-ассистент"
+description: "Интерактивная образовательная платформа для изучения уязвимости Web Cache Deception: теория, лаборатория и ассистент"
 img: assets/img/projects/wcd-education-platform.png
 icon: favicons/wcd.png
 importance: 2
@@ -10,7 +10,7 @@ demo: https://wcd-education-platform-1nuuiz9am-azars-projects-e8b4719a.vercel.ap
 related_publications: false
 ---
 
-Интерактивная образовательная платформа для изучения уязвимости Web Cache Deception (WCD). Все материалы на русском языке: теория, пошаговая визуализация атаки и ИИ-ассистент.
+Интерактивная образовательная платформа для изучения уязвимости Web Cache Deception (WCD). Все материалы на русском языке: теория, пошаговая визуализация атаки и встроенный ассистент.
 
 ### Что такое Web Cache Deception
 
@@ -23,7 +23,7 @@ Web Cache Deception — уязвимость, при которой атакую
 - **Главная** — обзор платформы, ключевые концепции, быстрый доступ к разделам
 - **Теория** — 7 образовательных разделов: Web Cache, кэширование, Backend, WCD, delimiter discrepancies, интерпретация URL, утечка данных
 - **Лаборатория** — интерактивная демонстрация атаки WCD: ввод URL, пошаговая визуализация обработки Cache и Backend, отображение расхождений и утечки данных
-- **ИИ-ассистент** — чат-бот «Кэш-страж», эксперт по WCD, HTTP, CDN, Burp Suite и PortSwigger Academy
+- **Ассистент** — чат-бот «Кэш-страж», эксперт по WCD, HTTP, CDN, Burp Suite и PortSwigger Academy
 - **О проекте** — описание, технологический стек, ссылки на ресурсы PortSwigger
 
 ### Лаборатория
@@ -42,7 +42,6 @@ Web Cache Deception — уязвимость, при которой атакую
 
 - **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS 4, shadcn/ui
 - **State**: Zustand
-- **AI**: OpenRouter (Google Gemma 4 31B) — потоковый вывод ответов
 - **Деплой**: Vercel
 
 ### Попробовать
