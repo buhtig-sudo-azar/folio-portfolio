@@ -12,4 +12,7 @@ assets/libs/
 assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
-vendor
+vendor-e 
+# AI platform artifacts
+Caddyfile
+worklog.md
