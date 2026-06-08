@@ -74,8 +74,6 @@ related_publications: false
 
 ---
 
-**AZAR**
-
 <style>
 .demo-button {
   display: inline-flex;

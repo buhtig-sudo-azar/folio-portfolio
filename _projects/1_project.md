@@ -70,8 +70,6 @@ HTTP‑заголовок `Host` указывает домен, к которо�
 
 ---
 
-**AZAR**
-
 <style>
 .demo-button {
   display: inline-flex;

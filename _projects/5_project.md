@@ -26,7 +26,7 @@ AI-поисковик нового поколения — объединяет �
 
 - **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS 4, shadcn/ui
 - **AI**: OpenRouter (NVIDIA Nemotron 3 Ultra) — стриминг ответов в реальном времени
-- **Поиск**: z-ai-web-dev-sdk, arXiv API
+- **Поиск**: arXiv API
 - **Деплой**: Vercel
 
 ### Попробовать
@@ -34,8 +34,6 @@ AI-поисковик нового поколения — объединяет �
 👉 [Открыть AI-Searcher]({{ page.demo }}){: .demo-button}
 
 ---
-
-**AZAR**
 
 <style>
 .demo-button {
