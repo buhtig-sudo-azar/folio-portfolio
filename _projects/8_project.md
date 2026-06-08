@@ -6,7 +6,7 @@ img: assets/img/projects/wcd-education-platform.png
 icon: favicons/wcd.png
 importance: 2
 category: веб-безопасность
-demo: https://wcd-education-platform-1nuuiz9am-azars-projects-e8b4719a.vercel.app/
+demo: https://wcd-education-platform.vercel.app/
 related_publications: false
 ---
 
