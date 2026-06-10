@@ -7,7 +7,6 @@ icon: favicons/dive-into-llms-new.png
 importance: 1
 category: ии-мл
 demo: https://dive-into-llms-new.vercel.app/
-github: https://github.com/buhtig-sudo-azar/dive-into-llms-new
 related_publications: false
 ---
 
@@ -45,7 +44,6 @@ related_publications: false
 ### Ссылки
 
 - 👉 [Открыть симулятор]({{ page.demo }}){: .project-link}
-- 🔗 [Исходный код на GitHub]({{ page.github }}){: .project-link-gh}
 
 ---
 
@@ -72,25 +70,6 @@ related_publications: false
   color: #fff !important;
   border-color: #6366f1;
 }
-.project-link-gh {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 20px;
-  background: transparent;
-  color: #94a3b8 !important;
-  border: 1.5px solid #475569;
-  border-radius: 8px;
-  text-decoration: none !important;
-  font-weight: 500;
-  font-size: 0.875rem;
-  letter-spacing: 0.01em;
-  transition: all 0.2s ease;
-}
-.project-link-gh:hover {
-  background: #334155;
-  color: #fff !important;
-  border-color: #334155;
-}
+
 </style>
 
