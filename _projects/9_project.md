@@ -5,7 +5,7 @@ description: Интерактивный симулятор внутренних 
 img: assets/img/projects/dive-into-llms-new.png
 icon: favicons/dive-into-llms-new.png
 importance: 1
-category: инфраструктура
+category: ии-мл
 demo: https://dive-into-llms-new.vercel.app/
 github: https://github.com/buhtig-sudo-azar/dive-into-llms-new
 related_publications: false
