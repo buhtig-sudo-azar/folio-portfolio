@@ -46,27 +46,29 @@ Web Cache Deception — уязвимость, при которой атакую
 
 ### Попробовать
 
-👉 [Открыть WCD Education Platform]({{ page.demo }}){: .demo-button}
+👉 [Открыть WCD Education Platform]({{ page.demo }}){: .project-link}
 
 ---
 
 <style>
-.demo-button {
+.project-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 10px 24px;
-  background: linear-gradient(135deg, #10b981, #06b6d4);
-  color: white !important;
-  border-radius: 10px;
+  padding: 8px 20px;
+  background: transparent;
+  color: #34d399 !important;
+  border: 1.5px solid #10b981;
+  border-radius: 8px;
   text-decoration: none !important;
-  font-weight: 600;
-  font-size: 0.95rem;
-  transition: all 0.2s;
-  box-shadow: 0 2px 8px rgba(16,185,129,0.3);
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
 }
-.demo-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(16,185,129,0.4);
+.project-link:hover {
+  background: #10b981;
+  color: #fff !important;
+  border-color: #10b981;
 }
 </style>
