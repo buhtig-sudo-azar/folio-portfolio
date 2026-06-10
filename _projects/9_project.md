@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Dive into LLMs — Интерактивный симулятор"
+title: "LLM Explorer — Интерактивный симулятор"
 description: Интерактивный симулятор внутренних механизмов LLM: токенизация, эмбеддинги, самовнимание, сэмплирование, RAG, агенты и MCP
 img: assets/img/projects/dive-into-llms-new.png
 icon: favicons/dive-into-llms-new.png
