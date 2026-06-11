@@ -6,7 +6,7 @@ img: assets/img/projects/oracle-ai-hub.png
 icon: favicons/oracle-ai-hub.png
 importance: 1
 category: разное
-demo: https://github.com/buhtig-sudo-azar/oracle-ai-hub-dashboard
+demo: https://oracle-ai-hub-dashboard.vercel.app/
 related_publications: false
 ---
 
@@ -53,7 +53,7 @@ related_publications: false
 
 ### Попробовать
 
-👉 [Открыть на GitHub]({{ page.demo }}){: .project-link}
+👉 [Открыть демо]({{ page.demo }}){: .project-link}
 
 ---
 
