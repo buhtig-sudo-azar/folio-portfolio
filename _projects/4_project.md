@@ -34,7 +34,6 @@ related_publications: false
 
 ---
 
-**AZAR**
 
 <style>
 .project-link {

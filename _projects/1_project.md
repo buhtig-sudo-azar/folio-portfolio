@@ -70,7 +70,6 @@ HTTP‑заголовок `Host` указывает домен, к которо�
 
 ---
 
-**AZAR**
 
 <style>
 .project-link {
