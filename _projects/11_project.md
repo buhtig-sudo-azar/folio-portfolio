@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Oracle AI Hub Dashboard"
-description: Интерактивный дашборд для навигации по 15+ AI-проектам Oracle AI Developer Hub — приложения, воркшопы, ноутбуки и визуализация когнитивных архитектур
+description: "Каталог AI-проектов Oracle AI Developer Hub: приложения, воркшопы, ноутбуки и визуализация когнитивных архитектур"
 img: assets/img/projects/oracle-ai-hub.png
 icon: favicons/oracle-ai-hub.png
 importance: 1
@@ -10,7 +10,7 @@ demo: https://oracle-ai-hub-dashboard.vercel.app/
 related_publications: false
 ---
 
-Интерактивный дашборд, который превращает монорепозиторий [Oracle AI Developer Hub](https://github.com/oracle-devrel/oracle-ai-developer-hub) в наглядный каталог с фильтрацией, поиском и визуализацией. Платформа позволяет быстро ориентироваться среди 15 приложений, 5 воркшопов и 40+ ноутбуков — от RAG-систем и мульти-агентных архитектур до векторного поиска и памяти агентов.
+Наглядный каталог, превращающий монорепозиторий [Oracle AI Developer Hub](https://github.com/oracle-devrel/oracle-ai-developer-hub) в удобную навигацию с фильтрацией, поиском и визуализацией. Позволяет быстро ориентироваться среди 15 приложений, 5 воркшопов и 40+ ноутбуков — от RAG-систем и мульти-агентных архитектур до векторного поиска и памяти агентов.
 
 ### Что внутри
 
