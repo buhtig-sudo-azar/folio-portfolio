@@ -5,7 +5,7 @@ description: "Углублённая лаборатория по атакам н
 img: assets/img/projects/llm-attacks-lab.png
 icon: favicons/llm-attacks-lab.png
 importance: 1
-category: разное
+category: ии-мл
 demo: https://llm-attacks-lab.vercel.app/
 related_publications: false
 ---
