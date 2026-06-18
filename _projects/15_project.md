@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "ИИ Сисадмин Академия — Образовательная платформа"
-description: "Интерактивная платформа с ИИ-наставником для изучения системного администрирования и DevOps: 20 категорий, 75+ вопросов, чат с LLM, управление моделями"
+description: "Интерактивная платформа с ИИ-наставником для изучения системного администрирования и DevOps: 20 категорий, 48 вопросов, чат с LLM, управление моделями"
 img: assets/img/projects/ai-sysadmin-academy.png
 icon: favicons/ai-sysadmin-academy.png
 importance: 1
-category: инфраструктура
+category: системное-администрирование
 demo: https://ai-sysadmin-academy-v2.vercel.app/
 related_publications: false
 ---
@@ -59,7 +59,7 @@ related_publications: false
 ### Стек технологий
 
 - **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS 4, shadcn/ui
-- **База данных**: Prisma ORM (SQLite для разработки, PostgreSQL для продакшена)
+- **База данных**: Prisma ORM + Neon PostgreSQL (serverless)
 - **AI**: OpenRouter API — потоковый вывод, выбор моделей, rate-limit мониторинг
 - **State**: Zustand с localStorage-персистентностью
 - **Деплой**: Vercel, GitHub
