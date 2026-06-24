@@ -149,9 +149,12 @@ horizontal: false
     <p style="margin: 0 0 0.5rem 0; color: var(--global-text-color-light); font-size: 0.85rem;">
       Что-то полезное, что не вписывается в одну категорию — инструменты, подборки, обзоры.
     </p>
-    <p style="margin: 0; color: var(--global-text-color-light); font-size: 0.8rem; font-style: italic;">
-      Скоро появятся…
-    </p>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+      <a href="https://red.cyber-ed.ru/blog" target="_blank" rel="noopener noreferrer" class="source-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        red.cyber-ed.ru/blog
+      </a>
+    </div>
   </div>
 </div>
 
