@@ -6,7 +6,7 @@ img: assets/img/projects/transformers-app.png
 icon: favicons/transformers-app.png
 importance: 1
 category: ии-мл
-demo: https://transformers-app.vercel.app/
+demo: https://transformers-architecture.vercel.app/
 related_publications: false
 ---
 
