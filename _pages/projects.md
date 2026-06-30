@@ -2,10 +2,10 @@
 layout: page
 title: проекты
 permalink: /projects/
-description: Мои проекты по веб-безопасности, ИИ/МЛ и разработке.
+description: Мои проекты по веб-безопасности, ИИ-безопасности, ИИ/МЛ и разработке.
 nav: true
 nav_order: 3
-display_categories: [веб-безопасность, системное-администрирование, ии-мл, инфраструктура, разное]
+display_categories: [веб-безопасность, ии-безопасность, системное-администрирование, ии-мл, инфраструктура, разное]
 horizontal: false
 ---
 
@@ -93,6 +93,20 @@ horizontal: false
         sebsrt.xyz — Waybird Machine
       </a>
     </div>
+  </div>
+
+  <!-- ИИ-безопасность -->
+  <div style="margin-bottom: 1.25rem;">
+    <h3 style="font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem 0; display: flex; align-items: center; gap: 0.4rem; color: var(--global-text-color);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/><path d="M16 14H8a4 4 0 0 0-4 4v2h16v-2a4 4 0 0 0-4-4z"/><path d="M12 2v4"/><path d="M10 6h4"/></svg>
+      ИИ-безопасность
+    </h3>
+    <p style="margin: 0 0 0.5rem 0; color: var(--global-text-color-light); font-size: 0.85rem;">
+      Атаки на LLM, промпт-инъекции, jailbreak'и, безопасность AI-систем и adversarial ML.
+    </p>
+    <p style="margin: 0; color: var(--global-text-color-light); font-size: 0.8rem; font-style: italic;">
+      Скоро появятся…
+    </p>
   </div>
 
   <!-- Системное администрирование -->
