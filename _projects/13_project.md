@@ -5,7 +5,7 @@ description: "Расширенный практикум по уязвимост�
 img: assets/img/projects/llm-attacks-lab.png
 icon: favicons/llm-attacks-lab.png
 importance: 1
-category: ии-мл
+category: ии-безопасность
 demo: https://llm-attacks-lab.vercel.app/
 related_publications: false
 ---
