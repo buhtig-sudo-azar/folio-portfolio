@@ -105,27 +105,6 @@ body.sticky-bottom-footer {
       overflow-wrap: anywhere;
     }
 
-    table {
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      width: 100%;
-
-      @media (max-width: 576px) {
-        font-size: 0.85rem;
-
-        td, th {
-          padding: 4px 8px;
-        }
-      }
-    }
-
-    // Make images responsive
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
     // Demo buttons on mobile
     .demo-button {
       @media (max-width: 576px) {
@@ -134,11 +113,6 @@ body.sticky-bottom-footer {
       }
     }
 
-    // Code blocks responsive
-    pre, .highlight {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      max-width: 100%;
-    }
+    // Responsive tables, images, and code blocks are handled by _longread.scss
   }
 }

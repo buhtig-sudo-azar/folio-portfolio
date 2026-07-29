@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-/* Built-in Sass modules you’ll likely use across partials */
+/* Built-in Sass modules you'll likely use across partials */
 @use "sass:math";
 @use "sass:string";
 
@@ -27,6 +27,9 @@
 @use "components";
 @use "utilities";
 
+// Longread responsive styles (images, tables, code, typography at all breakpoints)
+@use "longread";
+
 // Other specialized styles
 @use "distill";
 @use "cv";
@@ -37,4 +40,3 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
-
