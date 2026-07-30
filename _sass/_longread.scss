@@ -4,18 +4,22 @@
  * Designed for al-folio theme — ensures perfect rendering on all screen sizes
  ******************************************************************************/
 
-// ─── Article container: prevent horizontal bleed ─────────────────────────────
+// ─── Article container ────────────────────────────────────────────────────────
+// Do NOT set overflow-x: hidden on article — it clips diagram images.
+// Instead, each content type manages its own overflow.
 .post {
   article {
-    overflow-x: hidden;
     overflow-wrap: break-word;
     word-break: break-word;
   }
 }
 
-// ─── Images ───────────────────────────────────────────────────────────────────
+// ─── Diagram images: scrollable on mobile ──────────────────────────────────────
+// Diagrams are 2000+ px wide. Scaling them to 360px makes text/arrows unreadable.
+// On mobile, wrap them in a scrollable container so users can pan through.
 .post {
   article {
+    // Default: fluid images for photos/regular content
     img {
       max-width: 100%;
       height: auto;
@@ -26,19 +30,73 @@
       }
     }
 
-    // Kramdown wraps markdown images in <p> with .align-center.
-    // Force centering and give breathing room.
-    p > img.align-center,
-    p.align-center > img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+    // Diagram images inside <p class="align-center"> (Kramdown output)
+    // On desktop: scale to fit. On mobile: keep readable size, scroll horizontally.
+    p:has(img) {
+      @media (max-width: 768px) {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+
+        &::-webkit-scrollbar {
+          height: 4px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: rgba(255, 255, 255, 0.2);
+          border-radius: 2px;
+        }
+
+        img {
+          min-width: 600px;
+          max-width: none;
+        }
+      }
+
+      @media (max-width: 480px) {
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+
+        img {
+          min-width: 560px;
+        }
+      }
     }
 
+    // Fallback for browsers without :has()
     p.align-center {
       text-align: center;
       margin-top: 1rem;
       margin-bottom: 1rem;
+
+      @media (max-width: 768px) {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      @media (max-width: 480px) {
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
     figure {
