@@ -74,5 +74,3 @@ Web Cache Deception — уязвимость, при которой злоумы
   border-color: #10b981;
 }
 </style>
-
-**AZAR**
