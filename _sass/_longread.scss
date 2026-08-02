@@ -19,53 +19,47 @@
 // On mobile, wrap them in a scrollable container so users can pan through.
 .post {
   article {
-    // Default: fluid images for photos/regular content
+    // Default: fluid images
     img {
       max-width: 100%;
       height: auto;
-      border-radius: 8px;
 
       @media (prefers-color-scheme: light) {
         box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
       }
     }
 
-    // Diagram images inside <p class="align-center"> (Kramdown output)
-    // On desktop: scale to fit. On mobile: keep readable size, scroll horizontally.
+    // Diagram images inside <p> with images — scrollable on mobile
     p:has(img) {
       @media (max-width: 768px) {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        margin-left: -1rem;
-        margin-right: -1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
         scrollbar-width: thin;
-        scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+        scrollbar-color: rgba(255, 255, 255, 0.25) transparent;
 
         &::-webkit-scrollbar {
-          height: 4px;
+          height: 6px;
         }
 
         &::-webkit-scrollbar-thumb {
-          background-color: rgba(255, 255, 255, 0.2);
-          border-radius: 2px;
+          background-color: rgba(255, 255, 255, 0.35);
+          border-radius: 3px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background-color: rgba(255, 255, 255, 0.05);
+          border-radius: 3px;
         }
 
         img {
-          min-width: 600px;
+          min-width: 700px;
           max-width: none;
         }
       }
 
       @media (max-width: 480px) {
-        margin-left: -0.75rem;
-        margin-right: -0.75rem;
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-
         img {
-          min-width: 560px;
+          min-width: 600px;
         }
       }
     }
@@ -79,17 +73,6 @@
       @media (max-width: 768px) {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        margin-left: -1rem;
-        margin-right: -1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
-
-      @media (max-width: 480px) {
-        margin-left: -0.75rem;
-        margin-right: -0.75rem;
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
       }
 
       img {
@@ -102,10 +85,10 @@
     figure {
       margin: 1.5rem 0;
       max-width: 100%;
-      overflow: hidden;
 
       img {
-        border-radius: 8px;
+        max-width: 100%;
+        height: auto;
       }
     }
   }
