@@ -5,7 +5,7 @@ description: "Интерактивный тренажёр по Cross-Site WebSoc
 img: assets/img/projects/cswsh-trainer.png
 icon: favicons/cswsh-trainer.png
 importance: 2
-category: безопасность
+category: веб-безопасность
 demo: https://cswsh-trainer.vercel.app/
 related_publications: false
 ---
