@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CSWH Trainer — Межсайтовый перехват веб-сокета"
-description: "Автономный интерактивный тренажёр по Cross-Site WebSocket Hijacking на базе технического материала CQR Company с полным разбором: теория, примеры на трёх языках, сценарии эксплуатации, методология тестирования, демо и песочницы"
+description: "Интерактивный тренажёр по CSWH: теория, демо, Python-песочница, тесты."
 img: assets/img/projects/cswsh-trainer.png
 icon: favicons/cswsh-trainer.png
 importance: 2
